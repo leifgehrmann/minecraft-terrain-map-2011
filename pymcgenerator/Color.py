@@ -1,6 +1,5 @@
-import Image
 import math
-import struct
+
 
 # @param integer Color, the RGB (not alpha)
 # @param list    ColorList, a collection

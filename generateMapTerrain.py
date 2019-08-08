@@ -1,24 +1,19 @@
 #!/usr/bin/python2.6 -tt
 
-import sys
-import Image
+from PIL import Image
 import random
 import math
-import time
 import datetime
 
-mcEditorLocation = "/Users/leifgehrmann/Documents/Programming/python/pymceditor/"
-sys.path.append(mcEditorLocation)
-import Column
-import Color
-import ImgParse
-import ElevationParse
-import TerrainParse
-import DepositParse
+from pymcgenerator import Column
+from pymcgenerator import Color
+from pymcgenerator import ImgParse
+from pymcgenerator import ElevationParse
+from pymcgenerator import TerrainParse
+from pymcgenerator import DepositParse
 
-mcEditorLocation = "/Users/leifgehrmann/Documents/Programming/python/pymclevel/"
-sys.path.append(mcEditorLocation)
-import mclevel
+from mcedit.pymclevel import mclevel
+
 
 def totalSeconds(td):
 	return (td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 10**6;
