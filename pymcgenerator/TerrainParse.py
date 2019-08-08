@@ -1,8 +1,5 @@
-import sys
-mcEditorLocation = "/Users/leifgehrmann/Documents/Programming/python/minecraftTerrainEditor/"
-sys.path.append(mcEditorLocation)
-import Column
-import Color
+from pymcgenerator import Column, Color
+
 
 def getTerrainInfo(fileName):
   	file = open(fileName);
@@ -22,7 +19,7 @@ def getTerrainInfo(fileName):
 				data_column_offset  = int(data[2]);
 				
 				# Create new Column
-				column=Column.Column();
+				column=Column();
 				column.setColumnChance(data_column_chance);
 				column.setColumnOffset(data_column_offset);
 				
