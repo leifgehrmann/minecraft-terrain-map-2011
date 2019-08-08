@@ -1,6 +1,4 @@
-import Image
 import math
-import struct
 
 def getSize(image):
 	return image.size;
