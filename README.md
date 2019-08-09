@@ -1,31 +1,27 @@
 # minecraft-terrain-map-2011
 
-Behold, code from 2011! 🤢
-
-It was the second semester of university, when I discovered [Minecraft] and
-python. My coding style was atrocious back then...
+Behold, code from 2011! 🤢 It was the second semester of university, when I
+discovered [Minecraft] and python. My coding style was atrocious back then...
 
 What I really wanted at the time was a script that could create maps from real
 terrain data. Specifically, I wanted to see if I could recreate the fjords of
-Rogaland, Norway. Below are some examples!
-
-## Screenshots
-
-A birds eye view of [Stavanger]
+[Rogaland, Norway][Rogaland]. Below are some examples!
 
 ![Stavanger](screenshots/Stavanger.png)
 
-[Preikestolen] / Lysefjord (It's too small to resolve in the elevation data 😅)
+A birds eye view of [Stavanger]
 
 ![Preikestolen/Lysefjord](screenshots/Lysefjord.png)
 
-[Folgefonna] glacier to the right
+[Preikestolen] / Lysefjord (It's too small to resolve in the elevation data 😅)
 
 ![Folgefonna](screenshots/Folgefonna.png)
 
-Sunset in the mountains
+[Folgefonna] glacier to the right
 
 ![Rogaland Sunset](screenshots/Rogaland-solnedgang.png)
+
+Sunset in the mountains
 
 ## How did it work?
 
@@ -88,10 +84,11 @@ sure why I would need such a script, but apparently it exists. I've not
 bothered to fix it, so it probably does not work without fixing some of the
 import statements.
 
+[Minecraft]: https://minecraft.net
+[Rogaland]: https://en.wikipedia.org/wiki/Rogaland
 [Stavanger]: https://en.wikipedia.org/wiki/Stavanger
 [Preikestolen]: https://en.wikipedia.org/wiki/Preikestolen
 [Folgefonna]: https://en.wikipedia.org/wiki/Folgefonna
-[Minecraft]: https://minecraft.net
 [SRTM]: https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission
 [OpenStreetMap]: https://www.openstreetmap.org
 [NaturalEarthData]: https://www.naturalearthdata.com
